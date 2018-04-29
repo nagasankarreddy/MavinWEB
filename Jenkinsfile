@@ -10,7 +10,7 @@ node {
 
        stage('Compiling'){
 
-          sh 'mvn deploy'
+          bat 'mvn deploy'
        }
 	   
       stage('Sonar') {

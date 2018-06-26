@@ -101,12 +101,12 @@
         <repository>
           <id>nexus</id>
           <name>Mithun Technologies Releases Nexus Repository</name>
-          <url>http://localhost:8081/repository/sankar-release/</url>
+          <url>http://localhost:9099/sankar/repository/sankar-release</url>
         </repository>
         <snapshotRepository>
           <id>nexus</id>
           <name>Mithun Technologies Snapshot Nexus Repository </name>
-          <url>http://localhost:8081/repository/sankar-snapshot/</url>
+          <url>http://localhost:9099/sankar/repository/sankar-snapshot</url>
         </snapshotRepository>
     </distributionManagement>
 
